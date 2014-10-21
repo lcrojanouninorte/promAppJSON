@@ -1,0 +1,160 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bgrepeat3"
+    android:scrollbars="vertical" >
+
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:gravity="center"
+	    android:orientation="vertical" >
+	
+	  <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="0dp"
+	        android:layout_weight="0.25"
+	        android:orientation="horizontal" 
+	        android:gravity="center"
+	        >
+		    <TextView
+		        android:id="@+id/textView2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:hint="@string/welcome_text"
+		        android:gravity="center"
+		 
+		        android:textAppearance="?android:attr/textAppearanceSmall" />
+		    
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="0.25"
+	        android:orientation="horizontal" 
+	        android:gravity="center"
+	        >
+
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Nombre" />
+
+	        <EditText
+	            android:id="@+id/editTextNombre"
+	            android:layout_width="match_parent"
+	            android:inputType="textPersonName"
+	            android:hint="Nombre"
+	            android:layout_height="wrap_content"  
+	            android:ems="10" >
+	   
+	            <requestFocus />
+	        </EditText>
+	        
+	
+	    </LinearLayout>
+	        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="0.25"
+	        android:orientation="horizontal" 
+	        android:gravity="center"
+	        >
+
+	            <TextView
+	                android:id="@+id/textView3"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Promedio Acumulado" />
+
+	        <EditText
+	            android:id="@+id/editTextPromAcum"
+	            android:layout_width="match_parent"
+	            android:inputType="numberDecimal"
+	            android:layout_height="wrap_content"
+	            android:hint="@string/promedio_acumulado"
+	            
+	            android:ems="10" >
+	            
+	
+	            <requestFocus />
+	        </EditText>
+	        
+	
+	    </LinearLayout>
+	        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="0.25"
+	        android:orientation="horizontal" 
+	        android:gravity="center"
+	        >
+
+	            <TextView
+	                android:id="@+id/textView4"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Creditos Cursados" />
+
+	        <EditText
+	            android:id="@+id/editTextCredCursados"
+	            android:layout_width="match_parent"
+	            android:inputType="number"
+	            android:layout_height="wrap_content"
+	            android:hint="Creditos Cursados"
+	            android:ems="10" >
+	            
+	
+	            <requestFocus />
+	        </EditText>
+	        
+	
+	    </LinearLayout>
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="0.25"
+	        android:orientation="horizontal" 
+	        android:gravity="center"
+	        >
+		
+	        <TextView
+	            android:id="@+id/textViewPromDeseado"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/semestre_a_cursar"
+	            />
+	            
+		       <Spinner 
+		        android:id="@+id/spinnerSemestreACusar"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:prompt="@string/spinner_title_semeters"
+		        android:drawSelectorOnTop="true"
+		        android:entries="@array/Semestres"
+		       
+		        />
+	        
+	
+	    </LinearLayout>
+	        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="0.25"
+	        android:orientation="horizontal" 
+	        android:gravity="center"
+	        >
+		       
+	        </LinearLayout>
+	
+	        
+	
+	
+	</LinearLayout>
+</ScrollView>

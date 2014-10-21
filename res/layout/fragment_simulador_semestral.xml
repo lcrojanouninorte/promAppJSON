@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+<FrameLayout  
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+		 <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:background="@drawable/bgrepeat2"/>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+   
+    
+   <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:gravity="left">
+
+       <TextView
+           android:id="@+id/textViewTitle"
+           android:layout_width="wrap_content"
+           android:textColor="#FFFFFF"
+           android:layout_height="wrap_content"
+           android:paddingBottom="2dp"
+           android:text="@string/text_title_simulador_semestral"
+           android:textAppearance="?android:attr/textAppearanceSmall" />
+  
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        >
+
+        <TextView
+            android:id="@+id/textViewLabelPromAcum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_weight="0.4"
+            android:text="@string/promedio_deseado"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/editTextPromAcumDeseado"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:ems="3"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/buttonCambiarAcumDeseado"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:minHeight="20dp"
+            android:minWidth="20dp"
+            android:textColor="#FFFFFF"
+            android:text="Calcular"
+            android:textSize="12sp" />
+		   
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="5dp"
+             >
+
+            <TextView
+                android:id="@+id/textViewLabelSemestralRequerido"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:textColor="#FFFFFF"
+                android:text="@string/text_promedio_requerido"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextPromRequerido"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:clickable="false"
+                android:ems="3"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:inputType="numberDecimal"
+                android:textSize="12sp" />
+
+              	<LinearLayout
+			  	    android:layout_weight="0.2"
+			  	    android:layout_width="0dp"
+			  	    android:layout_height="wrap_content"
+			  	    
+			  	    >   
+			   </LinearLayout>
+		   
+    </LinearLayout>
+
+  	<LinearLayout
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="wrap_content"
+  	            android:layout_marginLeft="5dp"
+  	    >
+
+            <TextView
+                android:id="@+id/textViewLabelCreditosCursados"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="@string/creditos_cursados"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextCreditosCursados"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:clickable="false"
+                android:ems="3"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+ 	<LinearLayout
+			  	    android:layout_weight="0.2"
+			  	    android:layout_width="0dp"
+			  	    android:layout_height="wrap_content"
+			  	    
+			  	    >   
+			   </LinearLayout>
+		   
+		   
+    </LinearLayout>
+
+  	<TextView
+  	    android:id="@+id/textViewRecomendacin"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:gravity="center"
+  	     android:textColor="#FFFFFF"
+  	    android:text="@string/number"
+  	    android:textSize="12sp" 
+  	    />
+  	</LinearLayout>
+</FrameLayout>
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+     android:descendantFocusability="beforeDescendants"
+
+    android:orientation="horizontal" >
+<FrameLayout  
+android:layout_width="fill_parent" android:layout_height="fill_parent">
+        
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center"
+			    android:background="#1A99CC00"
+			    android:scaleType="fitXY"
+			    android:orientation="horizontal" >
+			    
+			    <ImageView
+			    android:id="@+id/img"
+			    android:layout_width="32dp"
+			    android:layout_gravity="center"
+			    android:layout_margin="3dp"
+			    android:layout_height="32dp"
+			    android:src="@drawable/estado_progreso" />
+
+			    
+			    
+			    <LinearLayout
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" 
+			        android:gravity="center_vertical"
+			        android:orientation="vertical">
+			
+			        <TextView
+			            android:id="@+id/nombre"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="P1"
+			            android:textSize="16sp" />
+			
+			        <TextView
+			            android:id="@+id/nota_deseada"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Nota Requerida"
+			            android:textSize="14sp" />
+			
+			        <TextView
+			            android:id="@+id/creditos"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:textSize="12sp"
+			            android:text="Porcentaje: 30%" />
+			        <TextView
+			            android:id="@+id/estado"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:textSize="12sp"
+			            android:text="estado" />
+			
+			    </LinearLayout>
+			    <LinearLayout 
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+		
+			        android:gravity="right|center_vertical" >
+						<LinearLayout 
+						    android:layout_width="0dp"
+						    android:layout_weight="0.8"
+							android:layout_height="match_parent" 
+							android:orientation="vertical" >
+			
+					    <TextView
+					        android:id="@+id/textViewNotaSimulada"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+			
+					        android:layout_gravity="center"
+					        android:text="Nota Obtenida"
+					        android:textSize="12sp" />
+
+					    <TextView
+					        android:id="@+id/nota_real"
+					        android:layout_width="wrap_content"
+					        android:layout_gravity="center"
+					        android:layout_height="wrap_content"
+					        android:text="Medium Text"
+					        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+				        
+					</LinearLayout>
+			        <ToggleButton
+			            android:id="@+id/toggle_estado"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+	
+			            android:minHeight="30dp"
+			            android:minWidth="50dp"
+			            android:text="ToggleButton"
+			            android:textOn="Finalizar"
+			            android:textOff="Continuar"
+			            android:layout_alignParentRight="true"
+			            android:focusable="false"
+			            android:clickable="false" 
+			            android:textSize="12sp" />
+		
+			        <TextView
+			            android:id="@+id/id_asignatura"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:visibility="invisible"
+			            android:text="n" />
+
+			    </LinearLayout>
+		</LinearLayout>
+	</FrameLayout>
+</LinearLayout>

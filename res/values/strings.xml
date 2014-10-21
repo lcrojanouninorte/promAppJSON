@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="green">#1A99CC00</color>
+    <string name="app_name">promApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_reset">Reinicar Todo</string>
+    <string name="welcome_title">Bienvenido! Es tu primer uso!</string>
+    <string name="welcome_text">Esta es tu primera ves en la APP, Ingresa los datos solicitados</string>
+    <string name="nombre">Nombre</string>
+    <string name="promedio_acumulado">Promedio Acumulado</string>
+    <string name="creditos_cursados">Creditos Cursados</string>
+    <string name="promedio_deseado">Promedio deseado</string>
+    <string name="semestre_a_cursar">Semestre a Cursar</string>
+    <string name="boton_enviar">Enviar</string>
+    <string name="text_title_simulador_prom_acum">Simulador de Promedio Acumulado</string>
+    <string-array name="Semestres">
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+        <item>VI</item>
+        <item>VII</item>
+        <item>VIII</item>
+        <item>IX</item>
+        <item>X</item>
+    </string-array>
+   
+    <string name="spinner_title_semeters">Seleccione el Semestre a Cursar</string>
+    <string name="spinner_title_programas">Seleccione programa</string>
+    <string name="principal_title">Menú Principal</string>
+    <string name="user_name">Nombre:</string>
+    <string name="estado">Estado:</string>
+    <string name="text_editar_semestre">Ver/Editar Semestre</string>
+    <string name="text_simulador_acumulado">¿Cuanto necesito sacar este semestre?</string>
+    <string name="text_simulador_semestre">¿Cuanto debo sacar en cada asignatura?</string>
+    <string name="text_simulador_asignatura">Simula el promedio de una asignatura</string>
+    <string name="text_historia">Historia Academica</string>
+    <string name="text_title_semester">Semestre</string>
+    <string name="text_title_simulador_semestral">Simulador Promedio Semestral</string>
+    <string name="text_promedio_requerido">Promedio Requerido</string>
+        <string name="text_promedio_simulado">Promedio Simulado</string>
+        <string name="number">n</string>
+    <string name="textbutton_cambiar">Cambiar</string>
+    <string name="text_title_asignaturas">Asignaturas</string>
+    <string name="text_nueva_asignatura">Añadir Asignatura</string>
+    <string name="text_variable_creditos_matriculados">Creditos Matriculados: </string>
+    <string name="creditos_asignatura">Creditos de la asignatura</string>
+    <string name="nota_esperada">Nota que espera sacar</string>
+    <string name="nombre_asignatura">Nombre de la asignatura</string>
+    <string name="text_title_nueva_asignatura">Añadir nueva asignatura</string>
+    <string name="text_recalcular_promedio">Recalcular</string>
+    <string name="text_finalizar_semestes">Finalizar</string>
+    <string name="text_nombre_asignatura">Asignatura</string>
+    <string name="text_nueva_evaluacion">Añadir Evaluación</string>
+    <string name="text_porcentaje_ingresado">Porcentaje de notas ingresadas:</string>
+    <string name="text_nota_esperada">Nota esperada</string>
+    <string name="text_puntos_esperados">puntos esperados</string>
+    <string name="text_diferencia">Diferencia:</string>
+    <string name="nombre_evaluacion">Nombre de la evaluación</string>
+    <string name="porcentaje_eval">Porcentaje de la evaluación</string>
+    <string name="text_prom_simulado">Prom. Simulado</string>
+    <string name="text_title_nueva_eval">Añadir Nueva Evaluación</string>
+    <string name="text_nota_requerida">Nota Requerida</string>
+    <string name="text_nota_simulada">Nota Simulada</string>
+    <string name="estado_en_progreso">En Progreso</string>
+    <string name="estado_finalizado">Finalizado</string>
+    <string name="text_title_edit_eval">Editar Evaluación</string>
+   
+ 
+
+</resources>
